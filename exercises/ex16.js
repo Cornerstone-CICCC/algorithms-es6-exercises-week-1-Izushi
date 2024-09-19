@@ -35,3 +35,11 @@ function makeLine(length) {
     }
     return line + "\n";
 }
+
+function buildTriangle(rows) {
+  for (let i = 1; i <= rows; i++) {
+    console.log(makeLine(i));
+  }
+}
+
+buildTriangle(10);
